@@ -1,1 +1,2 @@
 1. this is a text from main before it was merged
+2. Second row. From main
