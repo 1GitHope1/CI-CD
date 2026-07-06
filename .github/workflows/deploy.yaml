@@ -1,0 +1,17 @@
+name: test_workflow
+
+on: 
+  push:
+  pull_request:
+
+jobs:
+  start_workflow:
+    runs-on: ubuntu-latest 
+
+    steps:
+      - run: echo "Hello from GitHub Actions"
+      - run: pwd
+      - run: ls -la
+
+
+
